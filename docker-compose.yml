@@ -1,0 +1,15 @@
+services:
+  poddie:
+    build: .
+    container_name: poddie
+    restart: unless-stopped
+    user: "1000:1000"
+    environment:
+      TZ: Europe/London
+      PODDIE_CONFIG: /config/config.yml
+      PODDIE_OUTPUT: /data
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    ports:
+      - 8080:8080
