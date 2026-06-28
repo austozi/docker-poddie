@@ -8,14 +8,14 @@ update_interval: 43200
 
 shows:
 
-  - title: Dead Ringers
-    url: https://www.bbc.co.uk/programmes/b007gd85/episodes/player
-    icon: https://ichef.bbci.co.uk/images/ic/208x208/p0cc5g9v.jpg
-    description: Award-winning topical satire show.
+  - title: Title 1
+    url: https://example.com/podcast1
+    icon: https://example.com/podcast1/icon.png
+    description: Podcast 1
     max_episodes: 10
 
-  - title: Just a Minute
-    url: https://www.bbc.co.uk/programmes/b006s5dp/episodes/player
-    icon: https://ichef.bbci.co.uk/images/ic/208x208/p0c4lkk3.jpg
-    description: Panel game in which players must speak for one minute on any subject asked of them.
+  - title: Title 2
+    url: https://example.com/podcast2
+    icon: https://example.com/podcast2/icon.png
+    description: Podcast 2
     max_episodes: 10
